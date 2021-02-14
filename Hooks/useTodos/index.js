@@ -5,8 +5,6 @@ const getTodos = async () => {
     .then((res) => res.json())
     .then((data) => data);
 
-  console.log(data);
-
   return data;
 };
 
